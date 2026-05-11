@@ -1,11 +1,11 @@
-﻿# raceability atrix
+﻿# Traceability Matrix
 
-tatus: raft  
-ersion: 0.1  
-wner:  
-ast pdated:  
+Status: Draft  
+Version: 0.1  
+Owner:  
+Last Updated:  
 
-## urpose
+## Purpose
 
 Этот документ связывает исходный транскрипт, project brief, требования и backlog.
 
@@ -16,29 +16,29 @@ ast pdated:
 - какие задачи покрывают требования;
 - какие требования еще не покрыты backlog.
 
-## atrix
+## Matrix
 
-| ranscript xcerpt  | rief oint  | equirement  | ser tory  | acklog tem  | est ase  | tatus |
+| Transcript Excerpt ID | Brief Point ID | Requirement ID | User Story ID | Backlog Item ID | Test Case ID | Status |
 |---|---|---|---|---|---|---|
-| -001 | -001 | -001 | -001 | -001 | -001 | raft |
+| TR-001 | RS-001 | REQ-001 | US-001 | BE-001 | TC-001 | Draft |
 
-## ranscript xcerpts
+## Transcript Excerpts
 
-|  | ource ile | ime / ocation | xcerpt | otes |
+| ID | Source File | Time / Location | Excerpt | Notes |
 |---|---|---|---|---|
-| -001 | | | | |
+| TR-001 | | | | |
 
-## overage ummary
+## Coverage Summary
 
-| rea | otal | overed | ot overed |
+| Area | Total | Covered | Not Covered |
 |---|---:|---:|---:|
-| rief ignals | 0 | 0 | 0 |
-| equirements | 0 | 0 | 0 |
-| ser tories | 0 | 0 | 0 |
-| acklog tems | 0 | 0 | 0 |
+| Brief Signals | 0 | 0 | 0 |
+| Requirements | 0 | 0 | 0 |
+| User Stories | 0 | 0 | 0 |
+| Backlog Items | 0 | 0 | 0 |
 
-## aps
+## Gaps
 
-|  | ap | mpact | ext ction |
+| ID | Gap | Impact | Next Action |
 |---|---|---|---|
-| -001 | | | |
+| GAP-001 | | | |

@@ -1,33 +1,39 @@
-﻿# ssumptions egister
+﻿# Assumptions Register
 
-tatus: raft  
-ersion: 0.1  
-wner:  
-ast pdated:  
+Status: Draft  
+Version: 0.1  
+Owner:  
+Last Updated:  
 
-## urpose
+## Purpose
 
 Единый реестр предположений по проекту.
 
-Предположения нужны, когда информации недостаточно, но нужно продолжить работу.
+Предположения нужны, когда информации недостаточно, но нужно продолжить работу без блокировки всего процесса.
 
-## ssumptions
+## Assumptions
 
-|  | ssumption | ource | hy e ssume his | isk f rong | alidation ethod | tatus |
+| ID | Assumption | Source | Why We Assume This | Risk If Wrong | Validation Method | Status |
 |---|---|---|---|---|---|---|
-| -001 | | ranscript / rief / esearch / equirements / rchitecture | | | | pen |
+| A-001 | | Transcript / Brief / Research / Requirements / Architecture | | | | Open |
 
-## tatus egend
+## Status Legend
 
-- pen
-- alidated
-- nvalidated
-- eplaced
-- eferred
+- Open
+- Validated
+- Invalidated
+- Replaced
+- Deferred
 
-## ules
+## Rules
 
 1. Предположение не является фактом.
 2. Важные предположения должны быть проверены.
-3. Если предположение влияет на архитектуру или scope, его нужно явно указать в requirements или .
+3. Если предположение влияет на архитектуру или scope, его нужно явно указать в requirements или ADR.
 4. После проверки предположение должно быть обновлено.
+5. Если предположение оказалось неверным, нужно проверить связанные требования, backlog и архитектурные решения.
+
+## Notes
+
+- 
+

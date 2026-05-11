@@ -1,4 +1,4 @@
-# ADR-0001: Record Architecture Decisions
+﻿# ADR-0001: Record Architecture Decisions
 
 Status: Accepted  
 Date: TBD  
@@ -18,23 +18,31 @@ Owner: Павел
 
 ```text
 docs/adr/
+```
 
 Формат имени:
 
+```text
 0001-short-title.md
 0002-short-title.md
 0003-short-title.md
-Какие решения нужно фиксировать
-выбор backend стека;
-выбор frontend стека;
-выбор базы данных;
-выбор API подхода;
-выбор архитектурного стиля;
-выбор CI/CD подхода;
-выбор deployment подхода;
-выбор observability инструментов;
-важные security decisions.
-Template
+```
+
+## Какие решения нужно фиксировать
+
+- выбор backend стека;
+- выбор frontend стека;
+- выбор базы данных;
+- выбор API подхода;
+- выбор архитектурного стиля;
+- выбор CI/CD подхода;
+- выбор deployment подхода;
+- выбор observability инструментов;
+- важные security decisions.
+
+## Template
+
+```md
 # ADR-XXXX: Title
 
 Status: Proposed / Accepted / Superseded / Rejected  
@@ -54,11 +62,24 @@ Owner:
 ### Negative
 
 ## Follow-up Actions
-Consequences
-Positive
-Архитектурные решения будут прозрачными.
-Codex сможет ориентироваться на уже принятые решения.
-Будет проще понимать, почему выбран конкретный стек или подход.
-Negative
-Нужно поддерживать ADR в актуальном состоянии.
-Нельзя менять ключевые решения без обновления документации.
+```
+
+## Consequences
+
+### Positive
+
+- Архитектурные решения будут прозрачными.
+- Codex сможет ориентироваться на уже принятые решения.
+- Будет проще понимать, почему выбран конкретный стек или подход.
+
+### Negative
+
+- Нужно поддерживать ADR в актуальном состоянии.
+- Нельзя менять ключевые решения без обновления документации.
+
+## Follow-up Actions
+
+- Создать ADR для выбора backend стека.
+- Создать ADR для выбора frontend стека.
+- Создать ADR для выбора базы данных.
+- Создать ADR для CI/CD.

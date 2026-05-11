@@ -1,4 +1,4 @@
-# Backlog
+﻿# Backlog
 
 Status: Draft  
 Version: 0.1  
@@ -93,5 +93,8 @@ Dependencies:
 Given
 When
 Then
-Implementation Notes
-QA Notes
+```
+
+## Implementation Notes
+
+## QA Notes

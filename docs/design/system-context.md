@@ -2,32 +2,32 @@
 
 ## Purpose
 
-тот документ описывает верхнеуровневый контекст системы: какие части будут в проекте, кто ими пользуется, какие внешние интеграции возможны и где проходят границы ответственности.
+Этот документ описывает верхнеуровневый контекст системы: какие части будут в проекте, кто ими пользуется, какие внешние интеграции возможны и где проходят границы ответственности.
 
 ## Current Status
 
 Status: Draft
 
-а текущем этапе система еще не реализована. тот документ задает стартовую рамку для будущей архитектуры.
+На текущем этапе система еще не реализована. Этот документ задает стартовую рамку для будущей архитектуры.
 
 ## Main Actors
 
 | Actor | Description |
 |---|---|
-| Customer | аказчик или конечный пользователь продукта |
-| Product Owner | еловек, утверждающий требования и приоритеты |
-| Developer | еловек или AI-агент, реализующий задачи |
-| QA | еловек или AI-агент, проверяющий качество |
-| Release Manager | еловек или AI-агент, готовящий релиз |
+| Customer | Заказчик или конечный пользователь продукта |
+| Product Owner | Человек, утверждающий требования и приоритеты |
+| Developer | Человек или AI-агент, реализующий задачи |
+| QA | Человек или AI-агент, проверяющий качество |
+| Release Manager | Человек или AI-агент, готовящий релиз |
 
 ## Planned Subsystems
 
 | Subsystem | Description |
 |---|---|
-| Transcript Processing | бработка транскриптов и создание project brief |
+| Transcript Processing | Обработка транскриптов и создание project brief |
 | Product Documentation | Требования, backlog, architecture docs |
 | Backend | API и бизнес-логика |
-| Frontend | ользовательский интерфейс |
+| Frontend | Пользовательский интерфейс |
 | API Contract | OpenAPI спецификация |
 | QA | Test strategy, test cases, QA reports |
 | Release | Release notes, rollback plan, release checklist |
@@ -35,7 +35,7 @@ Status: Draft
 
 ## External Integrations
 
-отенциальные интеграции:
+Потенциальные интеграции:
 
 - GitHub;
 - Codex CLI;
@@ -50,18 +50,18 @@ Status: Draft
 
 ## System Boundaries
 
-а текущем этапе source of truth:
+На текущем этапе source of truth:
 
 - код и документация — GitHub repository;
 - задачи — пока markdown backlog, позже GitHub Issues;
-- API contract — openapi/;
-- архитектурные решения — docs/adr/;
-- статус процесса — project-status.json.
+- API contract — `openapi/`;
+- архитектурные решения — `docs/adr/`;
+- статус процесса — `project-status.json`.
 
 ## Open Questions
 
-- акой backend стек будет основным: Python или Java?
-- ужен ли frontend сразу?
-- акая база данных будет использоваться?
-- удет ли production deployment на первом этапе?
-- ужна ли интеграция с Figma на первом этапе?
+- Какой backend стек будет основным: Python или Java?
+- Нужен ли frontend сразу?
+- Какая база данных будет использоваться?
+- Будет ли production deployment на первом этапе?
+- Нужна ли интеграция с Figma на первом этапе?

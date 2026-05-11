@@ -1,4 +1,4 @@
-# Test Strategy
+﻿# Test Strategy
 
 ## Purpose
 
@@ -33,46 +33,59 @@ Status: Draft
 
 ## Python Checks
 
-bash
+```bash
 python -m pytest
 python -m compileall .
-Java Checks
+```
+
+## Java Checks
 
 Maven:
 
+```bash
 mvn test
 mvn package
+```
 
 Gradle:
 
+```bash
 gradle test
 gradle build
-JavaScript Checks
+```
+
+## JavaScript Checks
+
+```bash
 npm test
 npm run build
-Minimal Quality Gate
+```
+
+## Minimal Quality Gate
 
 Перед завершением задачи Codex должен сообщить:
 
-какие файлы изменены;
-какие проверки запущены;
-какие проверки не запускались и почему;
-какие риски остались.
-Bug Report Requirements
+- какие файлы изменены;
+- какие проверки запущены;
+- какие проверки не запускались и почему;
+- какие риски остались.
+
+## Bug Report Requirements
 
 Каждый bug report должен содержать:
 
-краткое описание;
-шаги воспроизведения;
-ожидаемый результат;
-фактический результат;
-окружение;
-логи или скриншоты, если есть;
-severity;
-linked requirement, если есть.
+- краткое описание;
+- шаги воспроизведения;
+- ожидаемый результат;
+- фактический результат;
+- окружение;
+- логи или скриншоты, если есть;
+- severity;
+- linked requirement, если есть.
 
-Open Questions
-Какой test framework будет использоваться для Python?
-Будет ли Java использовать Maven или Gradle?
-Будет ли frontend на React/Vue/Angular?
-Нужны ли e2e тесты на первом MVP?
+## Open Questions
+
+- Какой test framework будет использоваться для Python?
+- Будет ли Java использовать Maven или Gradle?
+- Будет ли frontend на React/Vue/Angular?
+- Нужны ли e2e тесты на первом MVP?

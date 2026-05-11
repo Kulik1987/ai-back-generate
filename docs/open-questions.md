@@ -1,28 +1,35 @@
-﻿# pen uestions egister
+﻿# Open Questions Register
 
-tatus: raft  
-ersion: 0.1  
-wner:  
-ast pdated:  
+Status: Draft  
+Version: 0.1  
+Owner:  
+Last Updated:  
 
-## urpose
+## Purpose
 
 Единый реестр открытых вопросов по проекту.
 
-## uestions
+## Questions
 
-|  | uestion | ource | wner | eeded or | riority | tatus | nswer |
+| ID | Question | Source | Owner | Needed For | Priority | Status | Answer |
 |---|---|---|---|---|---|---|---|
-| -001 | | ranscript / rief / equirements / rchitecture /  | | | 1 | pen | |
+| Q-001 | | Transcript / Brief / Requirements / Architecture / QA | | | P1 | Open | |
 
-## tatus egend
+## Status Legend
 
-- pen
-- nswered
-- eferred
-- ancelled
+- Open
+- Answered
+- Deferred
+- Cancelled
 
-## otes
+## Rules
 
-- Вопросы из brief, research и requirements должны дублироваться здесь.
-- После получения ответа нужно обновить связанные документы.
+1. Вопросы из brief, research и requirements должны дублироваться здесь.
+2. После получения ответа нужно обновить связанные документы.
+3. Если вопрос блокирует разработку, укажи Priority = P0 или P1.
+4. Если вопрос больше не актуален, переведи его в Cancelled или Deferred.
+
+## Notes
+
+- 
+

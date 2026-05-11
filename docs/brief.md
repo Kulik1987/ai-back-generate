@@ -1,4 +1,4 @@
-# Project Brief
+﻿# Project Brief
 
 Status: Draft  
 Version: 0.1  
@@ -69,3 +69,6 @@ Last Updated:
 ## 11. Recommended Next Step
 
 Что нужно сделать следующим шагом:
+
+- 
+
